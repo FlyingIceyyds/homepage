@@ -16,7 +16,7 @@
 @font-face {
     font-family: "title";
     /*英文字体*/
-    src: url(../fonts/Pacifico-Regular.ttf);
+    src: url(../fonts/KrinkesRegularPERSONAL-1.ttf);
     font-display: swap;
 }
 
@@ -336,7 +336,10 @@ body {
     background-position: 0%;
     font-family: "title";
     animation: backgroundSizeAnimation 10s ease-in-out infinite;
-      background-image:  var(--gradient);
+    background-image:  var(--gradient);
+    padding: 5px;
+    font-weight: 500;
+    font-size: 90px;
 }
 
 @keyframes backgroundSizeAnimation {
@@ -756,9 +759,9 @@ footer {
 .tc-main {
     z-index: 100000;
     
-    width: 80%;
-    max-width: 300px;
-    min-height: 200px;
+    width: 90%;
+    max-width: 355px;
+    min-height: 180px;
     background-color: #ffffff;
     border-radius: 15px;
 
