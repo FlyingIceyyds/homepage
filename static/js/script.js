@@ -54,7 +54,7 @@ function popGitHub() {
 function popWeChat() {
     var tcMainElement = document.querySelector(".tc-main");
     tcMainElement.innerHTML = `
-        <div class="card" style="width: 300px; border-radius: 15px; display: flex; align-items: center; gap: 15px;">
+        <div class="card" style="width: 300px; border-radius: 13px; display: flex; align-items: center; gap: 15px;">
             <div class="card-content" style="flex: 1;color: black;">
                 <h2 style="margin-bottom: 10px;">WeChat</h2>
                 <p><strong>User Name：</strong>ちば</p>
@@ -73,7 +73,7 @@ function popWeChat() {
 function popWhatsApp() {
     var tcMainElement = document.querySelector(".tc-main");
     tcMainElement.innerHTML = `
-        <div class="card" style="width: 300px; border-radius: 15px; display: flex; align-items: center; gap: 15px;">
+        <div class="card" style="width: 300px; border-radius: 13px; display: flex; align-items: center; gap: 15px;">
             <div class="card-content" style="flex: 1;color: black;">
                 <h2 style="margin-bottom: 10px;">WhatsApp</h2>
                 <p><strong>Name：</strong>FlyingIce</p>
@@ -92,7 +92,7 @@ function popWhatsApp() {
 function popTG() {
     var tcMainElement = document.querySelector(".tc-main");
     tcMainElement.innerHTML = `
-        <div class="card" style="width: 300px; border-radius: 15px; display: flex; align-items: center; gap: 15px;">
+        <div class="card" style="width: 300px; border-radius: 13px; display: flex; align-items: center; gap: 15px;">
             <div class="card-content" style="flex: 1;color: black;">
                 <h2 style="margin-bottom: 10px;">Telegram</h2>
                 <p><strong>User Name：</strong>ちば</p>
@@ -111,7 +111,7 @@ function popTG() {
 function popEmail() {
     var tcMainElement = document.querySelector(".tc-main");
     tcMainElement.innerHTML = `
-        <div class="card" style="width: 300px; border-radius: 15px; display: flex; align-items: center; gap: 15px;">
+        <div class="card" style="width: 300px; border-radius: 13px; display: flex; align-items: center; gap: 15px;">
             <div class="card-content" style="flex: 1;color: black;">
                 <h2 style="margin-bottom: 10px;">E-Mail</h2>
                 <p><strong><a style="text-decoration: underline;" target="_blank" href="mailto:ceo@xxidc.top">ceo@xxidc.top</strong></p>
@@ -129,7 +129,7 @@ function popEmail() {
 function popZZ() {
     var tcMainElement = document.querySelector(".tc-main");
     tcMainElement.innerHTML = `
-        <div class="card" style="width: 300px; border-radius: 15px; display: flex; align-items: center; gap: 15px;">
+        <div class="card" style="width: 300px; border-radius: 13px; display: flex; align-items: center; gap: 15px;">
             <div class="card-content" style="flex: 1;color: black;">
                 <p><h2>海内存知己，</h2></p>
                 <p><h2>天涯若比邻。</h2></p>
