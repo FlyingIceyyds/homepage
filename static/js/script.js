@@ -39,8 +39,8 @@ function popGitHub() {
         <div class="card" style="width: auto; border-radius: 15px; display: flex; align-items: center; gap: 15px;">
             <div class="card-content" style="flex: 1;color: black;">
                 <h2 style="margin-bottom: 10px;">GitHub</h2>
-                <p><strong>@FlyingIce000</strong></p>
-                <p><a style="text-decoration: underline;" target="_blank" href="https://github.com/FlyingIce000">github.com/FlyingIce000</a></p>
+                <p><strong>@FlyingIceyyds</strong></p>
+                <p><a style="text-decoration: underline;" target="_blank" href="https://github.com/FlyingIceyyds">github.com/FlyingIceyyds</a></p>
             </div>
             <div class="card-image" style="flex-shrink: 0;">
                 <img src="./static/img/code/GitHub.png" alt="QR Code" style="width: 130px; height: 130px; border-radius: 10px;">
