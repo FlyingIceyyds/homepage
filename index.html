@@ -290,4 +290,30 @@
 </body>
 <script src="./static/js/script.js"> </script>
 
+<!-- 音乐播放器 https://github.com/FlyingIceyyds/HTML5-Mini-Music-Player -->
+<script>
+    window.MUSIC_PLAYER_CONFIG = {
+        musicDir: 'https://music.xn--eqrr82b.top/music',
+        files: [
+            'ロクデナシ MIMI - ただ声一つ.mp3',
+            'ナツノセ 沖石 - アノマリー.mp3',
+            'トゲナシトゲアリ - 蝶に結いた赤い糸.mp3',
+            'ずっと真夜中でいいのに。 - あいつら全員同窓会.mp3'
+        ],
+        playlists: [
+            { id: '1', name: '歌单：ヨルシカ', files: [
+                'ヨルシカ - 老人と海.mp3',
+                'ヨルシカ - だから僕は音楽を辞めた.mp3',
+                'ヨルシカ - 八月、某、月明かり.mp3',
+                'ヨルシカ - 盗作.mp3'
+            ] },
+        ],
+        jsmediatagsPath: 'https://cdn.jsdelivr.net/gh/flyingiceyyds/HTML5-Mini-Music-Player@main/jsmediatags.min.js',
+	    playFilesFirst: false,
+        loopCurrentList: false,
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/flyingiceyyds/HTML5-Mini-Music-Player@main/MiniMusicPlayer.min.js"></script>
+	<!-- 音乐播放器 -->
+
 </html>
